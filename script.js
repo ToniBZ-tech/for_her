@@ -17,7 +17,7 @@ yesBtn.addEventListener('click', () => {
     // Swap to the heart frog
     mainFrog.src = 'cute.png'; 
     statusText.innerHTML = "W CHAT!!!!💕";
-    subText.innerHTML = "Chattt HIGHKEYYY, so WWW.";
+    subText.innerHTML = "Chattt HIGHKEYYY, I love you <3.";
     
     // Hide buttons
     document.querySelector('.buttons').style.display = 'none';
@@ -40,4 +40,5 @@ function createFallingFrog() {
     document.getElementById('frog-rain-container').appendChild(frog);
     
     setTimeout(() => { frog.remove(); }, 4000);
+
 }
